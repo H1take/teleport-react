@@ -1,0 +1,54 @@
+.navbar {
+    width: 354px;
+    background: linear-gradient(176.05deg, rgba(102, 117, 174, 0.1) 1.92%, rgba(43, 62, 105, 0.1) 90.46%);
+    padding-left: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    width: 291px;
+    gap: 13px;
+}
+
+.buttonGroupSettings {
+    margin-top: 100%;
+}
+
+.themeSet {
+    display: flex;
+    align-items: center;
+    width: 291px;
+    padding-left: 8px;
+    color: white;
+}
+
+.themeSet>p {
+    margin-left: 16px;
+    margin-right: 40px;
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 34px;
+    margin-left: 10px;
+    background-color: rgba(253,49,98,0.1);
+    border-radius: 4px;
+}
+
+.balance>p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FD3162;
+}
+
+h1 {
+    color: white;
+}
