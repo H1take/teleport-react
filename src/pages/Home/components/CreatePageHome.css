@@ -1,0 +1,27 @@
+.createPageHome {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: -5px;
+}
+
+.createPageHomeTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.createPageHomeButton {
+    display: flex;
+    align-items: center;
+    margin-bottom: -23px;
+}
+
+.createPageHomeTitle>p {
+    margin-top: -15px;
+    margin-right: 374.5px;
+    color: #94B3E2;
+}

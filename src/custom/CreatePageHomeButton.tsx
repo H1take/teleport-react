@@ -3,33 +3,34 @@ import React from "react";
 import { styled } from "@mui/material/styles";
 import { Button } from "@mui/material";
 
-const NavbarButton = styled(Button)`
+const CreatePageHomeButton = styled(Button)`
   display: flex;
-  width: 291px;
-  height: 56px;
+  width: 234px;
+  height: 46px;
   color: #fff;
-  justify-content: flex-start;
+  border: none;
+  background: #FD3162;
+  justify-content: center;
   align-items: center;
   font-size: 16;
   text-transform: none;
-  border: none;
 
   :hover {
     border: none;
-    background: #0057ff;
+    background: #FD3162;
   }
 
   :active {
-    background: #0057ff;
+    background: #FD3162;
     border-radius: 4px;
     border: none;
   }
 
   :focus {
-    background: #0057ff;
+    background: #FD3162;
     border-radius: 4px;
     border: none;
   }
 `;
 
-export default NavbarButton;
+export default CreatePageHomeButton;

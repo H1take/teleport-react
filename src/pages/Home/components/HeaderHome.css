@@ -1,0 +1,26 @@
+.headerHome {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: -5px;
+}
+
+.headerHomeTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.headerHomeButton {
+    display: flex;
+    align-items: center;
+    margin-bottom: -23px;
+}
+
+.headerHomeTitle>p {
+    margin-top: -15px;
+    color: #94B3E2;
+}
